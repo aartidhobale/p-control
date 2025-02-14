@@ -59,19 +59,26 @@
 
 
 .section-title {
-margin-top: 0; /* Reduce top margin of "What we Do" */
+margin-top: 0; 
 padding-top: 0;
 }
+
+.facilities {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
 .card {
     text-align: center;
     border-radius: 8px;
     overflow: hidden;
-    background-color: transparent; /* Ensure no extra background */
+    background-color: transparent; 
 }
 
 .card-img-center {
     width: 250px;
-    height: 250px; /* Ensures uniform image size */
+    height: 250px; 
     border-radius: 15px;
     object-fit: cover;
     display: block;
@@ -189,9 +196,9 @@ body {
 }
 
 .reminder {
-text-align: left; /* Centers the text */
-max-width: 800px; /* Limits the width for better readability */
-margin: 0 auto; /* Centers the block */
+text-align: left; 
+max-width: 800px; 
+margin: 0 auto; 
 }
 
 
